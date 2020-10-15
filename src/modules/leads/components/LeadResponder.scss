@@ -1,0 +1,20 @@
+.LeadResponder {
+    padding: 0px;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+.LeadResponder-container {
+    margin: 0px 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+}
+.LeadResponder-container:first-child {
+    margin: 1em 1em 1em 1em;
+}
